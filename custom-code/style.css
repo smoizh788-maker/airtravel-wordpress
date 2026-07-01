@@ -1,0 +1,123 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: The Astra WordPress theme is lightning-fast and highly customizable. It has over 1 million downloads and the only theme in the world with 6,000+ five-star reviews! It’s ideal for professional web designers, solopreneurs, small businesses, eCommerce, membership sites and any type of website. It offers special features and templates so it works perfectly with all page builders like Spectra, Elementor, Beaver Builder, etc. Fast performance, clean code, mobile-first design and schema markup are all built-in, making the theme exceptionally SEO-friendly. It’s fully compatible with WooCommerce, SureCart and other eCommerce plugins and comes with lots of store-friendly features and templates. Astra also provides expert support for free users. A dedicated team of fully trained WordPress experts are on hand to help with every aspect of the theme. Try the live demo of Astra: https://zipwp.org/themes/astra/
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.13.4.1782460416
+Updated: 2026-06-26 07:53:36
+
+*/
+
+.flight-single{
+    max-width:1200px;
+    margin:60px auto;
+    padding:0 20px;
+}
+
+.flight-hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#fff;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    margin-bottom:40px;
+}
+
+.flight-logo img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+.flight-title h1{
+    margin:0;
+    font-size:38px;
+}
+
+.flight-title h3{
+    color:#ff3b30;
+    margin:8px 0;
+}
+
+.flight-title p{
+    font-size:18px;
+    color:#666;
+}
+
+.flight-price span{
+    font-size:40px;
+    color:#ff3b30;
+    font-weight:bold;
+}
+
+.flight-info{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-bottom:40px;
+}
+
+.info-card{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.info-card h4{
+    margin-bottom:12px;
+    color:#ff3b30;
+}
+
+.flight-content{
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.flight-content h2{
+    margin-top:30px;
+    color:#222;
+}
+
+.flight-book-btn{
+    display:inline-block;
+    margin-top:30px;
+    background:#ff3b30;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:10px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.flight-book-btn:hover{
+    background:#d62828;
+    color:#fff;
+    transform:translateY(-3px);
+}
+
+@media(max-width:768px){
+
+.flight-hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.flight-info{
+    grid-template-columns:1fr;
+}
+
+.flight-price{
+    margin-top:20px;
+}
+
+}
